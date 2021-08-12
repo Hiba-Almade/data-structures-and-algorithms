@@ -154,9 +154,11 @@ const howManyTreats = (arr) => {
   // Solution code here...
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
+
     let item = arr[i].items;
     for (let j = 0; j < item.length; j++) {
       let quant = item[j];
+      
       if (quant.name === 'Treats') {
         sum += quant.quantity;
       }
