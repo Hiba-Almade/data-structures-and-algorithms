@@ -20,4 +20,4 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+- For the 401 code challenge folder follow the [link](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java)
