@@ -6,7 +6,7 @@
 
 
 ## Whiteboard Process
-![whiteboard](./array-insert-shift.png)
+![whiteboard](./array-insert-shift.jpg)
 
 ## Approach & Efficiency:
 
