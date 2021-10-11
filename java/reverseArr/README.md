@@ -1,14 +1,12 @@
-# Data Structures and Algorithms
+# Code Challenges 1:
 
-## Language: `Java`
-
-# Reverse an Array
+# Reverse an Array:
 
   Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
 
 ## Whiteboard Process
-![whiteboard](./reverseArr/array-reverse.png)
+![whiteboard](./array-reverse.jpg)
 
-## Approach & Efficiency
+## Approach & Efficiency:
 
 I using for loop and it's taking 15 minuit
