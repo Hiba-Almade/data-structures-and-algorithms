@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="linkedList.AppTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-10-14T14:34:01" hostname="DESKTOP-C85BANU" time="0.189">
+  <properties/>
+  <testcase name="HeadPointerLinkedListTesting()" classname="linkedList.AppTest" time="0.149"/>
+  <testcase name="insertMultipleNodesToLinkedListTesting()" classname="linkedList.AppTest" time="0.022"/>
+  <testcase name="createEmptyLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
+  <testcase name="toStringLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="includeLinkedListTesting()" classname="linkedList.AppTest" time="0.006"/>
+  <testcase name="insertToEmptyLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
+  <testcase name="appHasAGreeting()" classname="linkedList.AppTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
