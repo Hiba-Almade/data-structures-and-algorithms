@@ -10,4 +10,6 @@
 
 ## Approach & Efficiency:
 
-I using for loop with binary search
+I'm using for loop with binary search
+
+Time and space = O(n)
