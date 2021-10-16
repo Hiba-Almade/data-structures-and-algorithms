@@ -9,4 +9,4 @@
 
 ## Approach & Efficiency:
 
-I using for loop and it's taking 15 minuit
+I using for loop and it's taking O(n)
