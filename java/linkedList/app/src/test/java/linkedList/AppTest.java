@@ -10,66 +10,177 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class AppTest {
   App classUnderTest = new App();
   LinkedList<Integer> testList = new LinkedList<Integer>();
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
-    }
 
-  @Test void createEmptyLinkedListTesting() {
-    String result = testList.toString();
-    assertEquals(result,"Null","Can successfully instantiate an empty linked list");
+  @Test
+  void appHasAGreeting() {
+    App classUnderTest = new App();
+    assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
   }
 
-  @Test void insertToEmptyLinkedListTesting() {
+  @Test
+  void createEmptyLinkedListTesting() {
+    String result = testList.toString();
+    assertEquals(result, "Null", "Can successfully instantiate an empty linked list");
+  }
+
+  @Test
+  void insertToEmptyLinkedListTesting() {
     testList.insert(2);
     String result = testList.toString();
-    assertEquals(result,"{2}->Null","Can properly insert into the linked list");
+    assertEquals(result, "{2}->Null", "Can properly insert into the linked list");
   }
 
-  @Test void insertMultipleNodesToLinkedListTesting() {
+  @Test
+  void insertMultipleNodesToLinkedListTesting() {
     testList.insert(5);
     testList.insert(10);
     testList.insert(20);
     String result = testList.toString();
-    assertEquals(result,"{20}->{10}->{5}->Null","Can properly insert multiple nodes into the linked list");
+    assertEquals(result, "{20}->{10}->{5}->Null", "Can properly insert multiple nodes into the linked list");
   }
 
-  @Test void HeadPointerLinkedListTesting() {
+  @Test
+  void HeadPointerLinkedListTesting() {
     testList.insert(5);
-    int result1= (int) testList.head.value;
-    assertEquals(5,result1);
+    int result1 = (int) testList.head.value;
+    assertEquals(5, result1);
 
     testList.insert(20);
     testList.insert(10);
-    int result2= (int) testList.head.value;
-    assertEquals(10,result2,"The head property will properly point to the first node in the linked list");
+    int result2 = (int) testList.head.value;
+    assertEquals(10, result2, "The head property will properly point to the first node in the linked list");
   }
 
-  @Test void includeLinkedListTesting() {
+  @Test
+  void includeLinkedListTesting() {
     testList.insert(5);
     testList.insert(10);
     testList.insert(20);
     testList.insert(30);
 
     boolean inFirst = testList.include(30);
-    assertTrue(inFirst,"Can finding a value within the head of the linked list that exists");
+    assertTrue(inFirst, "Can finding a value within the head of the linked list that exists");
 
     boolean inLast = testList.include(5);
-    assertTrue(inLast,"Can finding a value within the End of the linked list that exists");
+    assertTrue(inLast, "Can finding a value within the End of the linked list that exists");
 
     boolean inSide = testList.include(10);
-    assertTrue(inSide,"Can finding a value within the middle of the linked list that exists");
+    assertTrue(inSide, "Can finding a value within the middle of the linked list that exists");
   }
 
-  @Test void toStringLinkedListTesting() {
+  @Test
+  void toStringLinkedListTesting() {
     testList.insert(3);
     testList.insert(6);
     testList.insert(10);
     testList.insert(15);
     String result = testList.toString();
-    assertEquals(result,"{15}->{10}->{6}->{3}->Null","Can properly return a collection of all the values that exist in the linked list");
+    assertEquals(result, "{15}->{10}->{6}->{3}->Null", "Can properly return a collection of all the values that exist in the linked list");
   }
 
+  @Test
+  void appendLinkedListTesting() {
+    testList.append(4);
+    String result = testList.toString();
+    assertEquals(result, "{4}->Null");
+  }
 
+  @Test
+  void appendMultiLinkedListTesting() {
+    testList.append(3);
+    testList.append(6);
+    testList.append(10);
+    testList.append(15);
+    String result = testList.toString();
+    assertEquals(result, "{3}->{6}->{10}->{15}->Null");
+  }
 
+  @Test
+  void insertAfterMiddleLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    testList.insertAfter(6, 15);
+    String result = testList.toString();
+    assertEquals(result, "{10}->{6}->{15}->{3}->Null");
+  }
+
+  @Test
+  void insertAfterHeadLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    testList.insertAfter(10, 15);
+    String result = testList.toString();
+    assertEquals(result, "{10}->{15}->{6}->{3}->Null");
+  }
+
+  @Test
+  void insertAfterEndLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    testList.insertAfter(3, 15);
+    String result = testList.toString();
+    assertEquals(result, "{10}->{6}->{3}->{15}->Null");
+  }
+
+  @Test
+  void insertBeforeMiddleLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    testList.insertBefore(6, 15);
+    String result = testList.toString();
+    assertEquals(result, "{10}->{15}->{6}->{3}->Null");
+  }
+
+  @Test
+  void insertBeforeHeadLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    testList.insertBefore(10, 15);
+    String result = testList.toString();
+    assertEquals(result, "{15}->{10}->{6}->{3}->Null");
+  }
+
+  @Test
+  void insertBeforeEndLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    testList.insertBefore(3, 15);
+    String result = testList.toString();
+    assertEquals(result, "{10}->{6}->{15}->{3}->Null");
+  }
+
+  @Test
+  void removeHeadLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    testList.remove(10);
+    String result = testList.toString();
+    assertEquals(result, "{6}->{3}->Null");
+
+  }
+
+  @Test void removeMiddleLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    testList.remove(6);
+    String result = testList.toString();
+    assertEquals(result, "{10}->{3}->Null");
+  }
+
+  @Test void removeEndLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    testList.remove(3);
+    String result = testList.toString();
+    assertEquals(result, "{10}->{6}->Null");
+  }
 }
