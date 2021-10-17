@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="061f9126-e6f9-4ce1-a1de-53495e58ca97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/linkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/linkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge6/linked-list-insertions.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/linkedList/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/linkedList/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/linkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/test/linkedList/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/test/linkedList/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/linkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/linkedList/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/linkedList/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/linkedList/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +62,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/challenge6" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.toStringLinkedListTesting">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\linkedList\challenge6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.removeEndLinkedListTesting">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.App" />
       <module name="linkedList.app.main" />
@@ -77,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.HeadPointerLinkedListTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.insertBeforeEndLinkedListTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList.app.test" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +94,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="linkedList" />
       <option name="MAIN_CLASS_NAME" value="linkedList.AppTest" />
-      <option name="METHOD_NAME" value="HeadPointerLinkedListTesting" />
+      <option name="METHOD_NAME" value="insertBeforeEndLinkedListTesting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.includeLinkedListTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.removeEndLinkedListTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList.app.test" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +110,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="linkedList" />
       <option name="MAIN_CLASS_NAME" value="linkedList.AppTest" />
-      <option name="METHOD_NAME" value="includeLinkedListTesting" />
+      <option name="METHOD_NAME" value="removeEndLinkedListTesting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.insertToLinkedListTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.removeHeadLinkedListTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList.app.test" />
       <extension name="coverage">
         <pattern>
@@ -119,13 +126,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="linkedList" />
       <option name="MAIN_CLASS_NAME" value="linkedList.AppTest" />
-      <option name="METHOD_NAME" value="insertToLinkedListTesting" />
+      <option name="METHOD_NAME" value="removeHeadLinkedListTesting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.toStringLinkedListTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.removeMiddleLinkedListTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linkedList.app.test" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="linkedList" />
       <option name="MAIN_CLASS_NAME" value="linkedList.AppTest" />
-      <option name="METHOD_NAME" value="toStringLinkedListTesting" />
+      <option name="METHOD_NAME" value="removeMiddleLinkedListTesting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.toStringLinkedListTesting" />
-        <item itemvalue="JUnit.AppTest.includeLinkedListTesting" />
-        <item itemvalue="JUnit.AppTest.HeadPointerLinkedListTesting" />
-        <item itemvalue="JUnit.AppTest.insertToLinkedListTesting" />
+        <item itemvalue="JUnit.AppTest.removeEndLinkedListTesting" />
+        <item itemvalue="JUnit.AppTest.removeMiddleLinkedListTesting" />
+        <item itemvalue="JUnit.AppTest.removeHeadLinkedListTesting" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest.insertBeforeEndLinkedListTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -172,5 +179,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

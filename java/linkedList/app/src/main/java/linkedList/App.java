@@ -12,6 +12,9 @@ public class App {
        LinkedList<Integer> testList = new LinkedList<Integer>();
        testList.insert(2);
        testList.insert(5);
+       testList.append(4);
+       testList.insertAfter(2,10);
+       testList.remove(4);
        System.out.println(testList.toString());
        System.out.println(testList.include(1));
       System.out.println(testList.include(2));
