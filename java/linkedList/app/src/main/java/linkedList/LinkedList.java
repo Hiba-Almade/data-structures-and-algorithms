@@ -1,5 +1,7 @@
 package linkedList;
 
+import javax.swing.plaf.PanelUI;
+
 public class LinkedList <T>{
   Node head;
 
@@ -109,6 +111,45 @@ public class LinkedList <T>{
       position--;
     }
     return (T) current2.value;
+  }
+
+  // find size
+  public int gitSize (LinkedList list){
+    int size = -1;
+    Node current = list.head;
+    while (current != null){
+      size++;
+      current=current.next;
+    }
+    return size;
+  }
+
+  // marge tow linked list
+
+  public  LinkedList zipLists(LinkedList list1 , LinkedList list2){
+    LinkedList <T>largeList = new LinkedList<>();
+    if(gitSize(list1)>gitSize(list2)){
+      largeList=list1;
+    }else {
+      largeList=list2;
+    }
+    LinkedList<T> finalList= new LinkedList<>();
+    Node currentList1 = list1.head;
+    Node currentList2 = list2.head;
+    Node currentLargeList = largeList.head;
+
+    while (currentLargeList!=null){
+      if(currentList1!=null){
+        finalList.append((T) currentList1.value);
+        currentList1=currentList1.next;
+      }
+      if(currentList2 !=null){
+        finalList.append((T) currentList2.value);
+        currentList2 = currentList2.next;
+      }
+      currentLargeList=currentLargeList.next;
+    }
+    return finalList;
   }
 
   // print item

@@ -19,20 +19,20 @@ Creating 2 main classes `>>` **Node Class , LinkedList Class**
             > Next : pointer to th next node
          - constructor
 
-* #### LinkedList class:
-        _ fields:
-           > head: the first node
-        - default constructor
-        - Methods:
-           > insert.
-           > include.
-           > toString.
-           > append.
-           > insertAfter.
-           > insertBefore.
-           > remove.
-           > fromEnd.
-
+  * #### LinkedList class:
+          _ fields:
+             > head: the first node
+          - default constructor
+          - Methods:
+             > insert.
+             > include.
+             > toString.
+             > append.
+             > insertAfter.
+             > insertBefore.
+             > remove.
+             > fromEnd.
+             > zipLists.
 ### API:
 
 * #### insert:
@@ -86,9 +86,17 @@ if any node's value equal the input return true if not return false.
   Return the node’s value that is k places from the tail of the linked list.
 
   * The time and space = O(n)
+
+* #### zipLists:
+  Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list.
+  * The time and space = O(n)
+
+
 ---
 ##### Whiteboard for (append , insertBefore and insertAfter method): [link](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge6)
 
 ##### Whiteboard for (fromEnd method): [link](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge7)
+
+##### Whiteboard for (zipLists method): [link](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge8)
 
 

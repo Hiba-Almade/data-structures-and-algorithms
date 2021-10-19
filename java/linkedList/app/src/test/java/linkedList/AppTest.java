@@ -199,4 +199,47 @@ class AppTest {
 
     assertEquals(testList.fromEnd(10), "Exception");
   }
+
+
+
+  @Test public void zipListLinkedListTest() {
+    LinkedList list1 = new LinkedList();
+    list1.append(5);
+    list1.append(10);
+    list1.append(15);
+    list1.append(20);
+    LinkedList list2 = new LinkedList();
+    list2.append(3);
+    list2.append(6);
+    list2.append(9);
+
+    assertEquals("{5}->{3}->{10}->{6}->{15}->{9}->{20}->Null", list1.zipLists(list1,list2).toString());
+
+  }
+
+  @Test public void zipList2LinkedListTest() {
+    LinkedList list1 = new LinkedList();
+    LinkedList list2 = new LinkedList();
+    list2.append(3);
+    list2.append(6);
+    list2.append(9);
+
+    assertEquals("{3}->{6}->{9}->Null", list1.zipLists(list1,list2).toString());
+
+  }
+
+  @Test public void zipList3LinkedListTest() {
+    LinkedList list1 = new LinkedList();
+
+    LinkedList list2 = new LinkedList();
+
+
+    assertEquals("Null", list1.zipLists(list1,list2).toString());
+
+  }
+
+
+
+
+
 }
