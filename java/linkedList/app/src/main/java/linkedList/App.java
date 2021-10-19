@@ -10,15 +10,19 @@ public class App {
 
     public static void main(String[] args) {
        LinkedList<Integer> testList = new LinkedList<Integer>();
-       testList.insert(2);
-       testList.insert(5);
-       testList.append(4);
-       testList.insertAfter(2,10);
-      // testList.remove(4);
-       System.out.println(testList.toString());
-      System.out.println("k "+testList.fromEnd(1));
+
+//       testList.append(4);
+//       testList.insertAfter(2,10)
+//       testList.remove(4);
+//       System.out.println(testList.toString());
+//       System.out.println("k "+testList.fromEnd(1));
 //       System.out.println(testList.include(1));
 //      System.out.println(testList.include(2));
 //      System.out.println(testList.head.value);
+
+  LinkedList<Integer> testList2= new LinkedList<Integer>();
+
+      System.out.println(testList.zipLists(testList,testList2));
+
     }
 }
