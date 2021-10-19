@@ -183,4 +183,20 @@ class AppTest {
     String result = testList.toString();
     assertEquals(result, "{10}->{6}->Null");
   }
+
+  @Test void fromEndLinkedListTesting() {
+    testList.insert(3);
+    testList.insert(6);
+    testList.insert(10);
+    int result =  testList.fromEnd(0);
+    assertEquals(result, 3);
+
+    result =  testList.fromEnd(2);
+    assertEquals(result, 10);
+
+    result =  testList.fromEnd(1);
+    assertEquals(result, 6);
+
+    assertEquals(testList.fromEnd(10), "Exception");
+  }
 }

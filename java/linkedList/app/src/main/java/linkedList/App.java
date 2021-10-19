@@ -14,10 +14,11 @@ public class App {
        testList.insert(5);
        testList.append(4);
        testList.insertAfter(2,10);
-       testList.remove(4);
+      // testList.remove(4);
        System.out.println(testList.toString());
-       System.out.println(testList.include(1));
-      System.out.println(testList.include(2));
-      System.out.println(testList.head.value);
+      System.out.println("k "+testList.fromEnd(1));
+//       System.out.println(testList.include(1));
+//      System.out.println(testList.include(2));
+//      System.out.println(testList.head.value);
     }
 }
