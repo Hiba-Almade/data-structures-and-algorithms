@@ -93,6 +93,24 @@ public class LinkedList <T>{
     return false;
   }
 
+  // kth from end //
+  public T fromEnd(int k){
+    Node current = head;
+    int size=-1;
+    while (current != null){
+      size++;
+      current=current.next;
+    }
+    Node current2 = head;
+    int position = size-k;
+    if(position<0 || size<0){return (T) "Exception";}
+    while (position>0){
+      current2 = current2.next;
+      position--;
+    }
+    return (T) current2.value;
+  }
+
   // print item
   @Override
   public String toString(){

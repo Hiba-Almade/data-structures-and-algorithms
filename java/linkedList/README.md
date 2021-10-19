@@ -31,6 +31,7 @@ Creating 2 main classes `>>` **Node Class , LinkedList Class**
            > insertAfter.
            > insertBefore.
            > remove.
+           > fromEnd.
 
 ### API:
 
@@ -80,8 +81,14 @@ if any node's value equal the input return true if not return false.
 
   * The time and space = O(n)
 
+
+* #### fromEnd:
+  Return the node’s value that is k places from the tail of the linked list.
+
+  * The time and space = O(n)
 ---
 ##### Whiteboard for (append , insertBefore and insertAfter method): [link](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge6)
 
+##### Whiteboard for (fromEnd method): [link](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge7)
 
 
