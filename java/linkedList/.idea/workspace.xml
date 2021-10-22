@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="061f9126-e6f9-4ce1-a1de-53495e58ca97" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/linkedList/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/linkedList/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/linkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/linkedList/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/linkedList/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/linkedList/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="061f9126-e6f9-4ce1-a1de-53495e58ca97" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +50,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/challenge7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../java-fundamentals/inheritance" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\linkedList\challenge8" />
       <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\linkedList\challenge7" />
       <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\linkedList\challenge6" />
     </key>
