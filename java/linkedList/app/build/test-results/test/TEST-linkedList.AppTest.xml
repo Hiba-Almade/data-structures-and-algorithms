@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="linkedList.AppTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-10-14T14:34:01" hostname="DESKTOP-C85BANU" time="0.189">
+<testsuite name="linkedList.AppTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-10-23T13:44:34" hostname="DESKTOP-C85BANU" time="0.168">
   <properties/>
-  <testcase name="HeadPointerLinkedListTesting()" classname="linkedList.AppTest" time="0.149"/>
-  <testcase name="insertMultipleNodesToLinkedListTesting()" classname="linkedList.AppTest" time="0.022"/>
-  <testcase name="createEmptyLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
-  <testcase name="toStringLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
-  <testcase name="includeLinkedListTesting()" classname="linkedList.AppTest" time="0.006"/>
-  <testcase name="insertToEmptyLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
+  <testcase name="insertAfterHeadLinkedListTesting()" classname="linkedList.AppTest" time="0.128"/>
+  <testcase name="HeadPointerLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="insertMultipleNodesToLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="createEmptyLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="insertAfterMiddleLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="removeEndLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="appendLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
+  <testcase name="includeFirstLinkedListTesting()" classname="linkedList.AppTest" time="0.006"/>
+  <testcase name="HeadPointerMultiLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
+  <testcase name="includeLastLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="insertBeforeMiddleLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
+  <testcase name="removeMiddleLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
+  <testcase name="toStringLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
+  <testcase name="appendMultiLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="insertBeforeEndLinkedListTesting()" classname="linkedList.AppTest" time="0.002"/>
+  <testcase name="includeMiddleLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="insertToEmptyLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
+  <testcase name="insertBeforeHeadLinkedListTesting()" classname="linkedList.AppTest" time="0.001"/>
   <testcase name="appHasAGreeting()" classname="linkedList.AppTest" time="0.005"/>
+  <testcase name="insertAfterEndLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
+  <testcase name="removeHeadLinkedListTesting()" classname="linkedList.AppTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
