@@ -38,13 +38,16 @@ class AppTest {
     String result = testList.toString();
     assertEquals(result, "{20}->{10}->{5}->Null", "Can properly insert multiple nodes into the linked list");
   }
-
   @Test
   void HeadPointerLinkedListTesting() {
     testList.insert(5);
     int result1 = (int) testList.head.value;
     assertEquals(5, result1);
+  }
 
+  @Test
+  void HeadPointerMultiLinkedListTesting() {
+    testList.insert(5);
     testList.insert(20);
     testList.insert(10);
     int result2 = (int) testList.head.value;
@@ -52,7 +55,7 @@ class AppTest {
   }
 
   @Test
-  void includeLinkedListTesting() {
+  void includeFirstLinkedListTesting() {
     testList.insert(5);
     testList.insert(10);
     testList.insert(20);
@@ -61,13 +64,28 @@ class AppTest {
     boolean inFirst = testList.include(30);
     assertTrue(inFirst, "Can finding a value within the head of the linked list that exists");
 
+  }
+
+  @Test
+  void includeLastLinkedListTesting() {
+    testList.insert(5);
+    testList.insert(10);
+    testList.insert(20);
+    testList.insert(30);
     boolean inLast = testList.include(5);
     assertTrue(inLast, "Can finding a value within the End of the linked list that exists");
 
+  }
+
+  @Test
+  void includeMiddleLinkedListTesting() {
+    testList.insert(5);
+    testList.insert(10);
+    testList.insert(20);
+    testList.insert(30);
     boolean inSide = testList.include(10);
     assertTrue(inSide, "Can finding a value within the middle of the linked list that exists");
   }
-
   @Test
   void toStringLinkedListTesting() {
     testList.insert(3);
