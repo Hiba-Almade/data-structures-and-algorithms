@@ -4,6 +4,11 @@
 package stack.and.queue;
 
 import org.junit.jupiter.api.Test;
+import stack.and.queue.animal.Animal;
+import stack.and.queue.animal.AnimalShelter;
+import stack.and.queue.animal.Cat;
+import stack.and.queue.animal.Dog;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
@@ -95,7 +100,67 @@ class AppTest {
   }
 
 
+//-----------------------------------------------Animal test ----------------------------------------------------
 
+  @Test public void emptyAnimalShelterTest() {
+    AnimalShelter animalShelter = new AnimalShelter();
+    assertEquals("AnimalShelter{animalQueue=Queue: Null}",animalShelter.toString());
+  }
+
+  @Test public void enqueueAnimalsShelterTest() {
+    AnimalShelter animalShelter = new AnimalShelter();
+    Dog dog = new Dog("dog");
+    Cat cat1 = new Cat("cat1");
+    Cat cat2 = new Cat("cat2");
+
+    animalShelter.enqueue(dog);
+    animalShelter.enqueue(cat1);
+    animalShelter.enqueue(cat2);
+
+    assertEquals("AnimalShelter{animalQueue=Queue: [Animal{name='dog'}]=>[Animal{name='cat1'}]=>[Animal{name='cat2'}]=>Null}",animalShelter.toString());
+  }
+
+  @Test public void dequeueCatTest() {
+    AnimalShelter animalShelter = new AnimalShelter();
+    Dog dog = new Dog("dog");
+    Cat cat1 = new Cat("cat1");
+    Cat cat2 = new Cat("cat2");
+
+    animalShelter.enqueue(dog);
+    animalShelter.enqueue(cat1);
+    animalShelter.enqueue(cat2);
+    Animal value = animalShelter.dequeue("cat");
+
+    assertEquals("AnimalShelter{animalQueue=Queue: [Animal{name='dog'}]=>Null}",animalShelter.toString());
+
+  }
+  @Test public void dequeueDogTest() {
+    AnimalShelter animalShelter = new AnimalShelter();
+    Dog dog = new Dog("dog");
+    Cat cat1 = new Cat("cat1");
+    Cat cat2 = new Cat("cat2");
+
+    animalShelter.enqueue(dog);
+    animalShelter.enqueue(cat1);
+    animalShelter.enqueue(cat2);
+    Animal value = animalShelter.dequeue("dog");
+
+    assertEquals("AnimalShelter{animalQueue=Queue: [Animal{name='cat1'}]=>[Animal{name='cat2'}]=>Null}",animalShelter.toString());
+
+  }
+  @Test public void dequeuePrefNullTest() {
+    AnimalShelter animalShelter = new AnimalShelter();
+    Dog dog = new Dog("dog");
+    Cat cat1 = new Cat("cat1");
+    Cat cat2 = new Cat("cat2");
+
+    animalShelter.enqueue(dog);
+    animalShelter.enqueue(cat1);
+    animalShelter.enqueue(cat2);
+    Animal value = animalShelter.dequeue("cats");
+
+    assertEquals("AnimalShelter{animalQueue=Queue: [Animal{name='dog'}]=>[Animal{name='cat1'}]=>[Animal{name='cat2'}]=>Null}",animalShelter.toString());
+    }
 
 
 }

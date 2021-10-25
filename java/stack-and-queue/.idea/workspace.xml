@@ -60,11 +60,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/stack/and/queue/animal" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.peekEmptyQueueTest">
-    <configuration name="AppTest.dequeueMultiQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\stack-and-queue\app\src\main\java\stack\and\queue\animal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\stack-and-queue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.dequeuePrefNullTest">
+    <configuration name="AppTest.dequeueDogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -74,13 +82,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="dequeueMultiQueueTest" />
+      <option name="METHOD_NAME" value="dequeueDogTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.dequeueQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.dequeuePrefNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +98,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="dequeueQueueTest" />
+      <option name="METHOD_NAME" value="dequeuePrefNullTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.emptyQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.enqueueAnimalsShelterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +114,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="emptyQueueTest" />
+      <option name="METHOD_NAME" value="enqueueAnimalsShelterTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.peekEmptyQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testDequeuePrefCat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -122,13 +130,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="peekEmptyQueueTest" />
+      <option name="METHOD_NAME" value="testDequeuePrefCat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.peekQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testDequeuePrefDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +146,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="peekQueueTest" />
+      <option name="METHOD_NAME" value="testDequeuePrefDog" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.peekEmptyQueueTest" />
-        <item itemvalue="JUnit.AppTest.emptyQueueTest" />
-        <item itemvalue="JUnit.AppTest.dequeueMultiQueueTest" />
-        <item itemvalue="JUnit.AppTest.peekQueueTest" />
-        <item itemvalue="JUnit.AppTest.dequeueQueueTest" />
+        <item itemvalue="JUnit.AppTest.dequeuePrefNullTest" />
+        <item itemvalue="JUnit.AppTest.dequeueDogTest" />
+        <item itemvalue="JUnit.AppTest.testDequeuePrefDog" />
+        <item itemvalue="JUnit.AppTest.testDequeuePrefCat" />
+        <item itemvalue="JUnit.AppTest.enqueueAnimalsShelterTest" />
       </list>
     </recent_temporary>
   </component>
