@@ -1,8 +1,8 @@
 package stack.and.queue;
 
 public class Queue <T>{
-  Node front;
-  Node rear;
+  public Node front;
+  public Node rear;
 
   public Queue(){
     this.front=null;
