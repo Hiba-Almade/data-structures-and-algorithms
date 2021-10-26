@@ -5,7 +5,7 @@
   * argument: a number, k, as a parameter.
   * Return the node’s value that is k places from the tail of the linked list.
   
-[source code](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/app/src/main/LinkedList.java)
+[source code](https://github.com/Hiba-Almade/data-structures-and-algorithms/blob/main/java/linkedList/app/src/main/java/linkedList/LinkedList.java)
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
