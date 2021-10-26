@@ -15,5 +15,5 @@
 | [Stack and Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue)  |
 | [Pseudo Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/main/java/stackAndQueue/and/queue/pseudoQueue)  |
 | [Animal shelter Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/main/java/stackAndQueue/and/queue/animal)  |
-| [ Brackets Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/main/java/stackAndQueue/and/queue/stackQueueBrackets)  |
+| [ Brackets Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/main/java/stackAndQueue/stackQueueBrackets)  |
 
