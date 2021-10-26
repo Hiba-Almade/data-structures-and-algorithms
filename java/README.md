@@ -9,5 +9,10 @@
 | [Insert to Middle of an Array Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/insertShiftArray) |
 | [Binary Search of Sorted Array Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/binarySearch)  |
 | [Single Linked List Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList)  |
+| [Single Linked List insertions Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge6)  |
+| [Single Linked List Kth Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge7)  |
+| [Single Linked List zip Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge8)  |
 | [Stack and Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue)  |
+| [Pseudo Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/stackAndQueue/pseudoQueue)  |
+| [Animal shelter Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/stackAndQueue/animal)  |
 
