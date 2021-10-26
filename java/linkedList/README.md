@@ -93,10 +93,5 @@ if any node's value equal the input return true if not return false.
 
 
 ---
-##### Whiteboard for (append , insertBefore and insertAfter method): [link](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge6)
-
-##### Whiteboard for (fromEnd method): [link](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge7)
-
-##### Whiteboard for (zipLists method): [link](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge8)
 
 
