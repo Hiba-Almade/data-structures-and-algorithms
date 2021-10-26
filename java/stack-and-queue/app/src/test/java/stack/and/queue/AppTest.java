@@ -8,6 +8,7 @@ import stack.and.queue.animal.Animal;
 import stack.and.queue.animal.AnimalShelter;
 import stack.and.queue.animal.Cat;
 import stack.and.queue.animal.Dog;
+import stack.and.queue.pseudoQueue.PseudoQueue;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -99,7 +100,60 @@ class AppTest {
     assertEquals( queue.peek(),"can't return any thing from empty Queue");
   }
 
+//---------------------------------------------- pseudo queue test ----------------------------------------------
 
+  @Test public void enqueuePseudoQueueTest() {
+    PseudoQueue<Integer> queue = new PseudoQueue<>();
+    queue.enqueue(3);
+    assertEquals("PseudoQueue{Stack: [3]=>Null}",queue.toString());
+  }
+
+  @Test public void enqueueMultiplePseudoQueueTest() {
+    PseudoQueue<Integer> queue = new PseudoQueue<>();
+    queue.enqueue(3);
+    queue.enqueue(6);
+    queue.enqueue(9);
+    assertEquals("PseudoQueue{Stack: [9]=>[6]=>[3]=>Null}",queue.toString());
+
+  }
+  @Test public void dequeuePseudoQueueTest() {
+    PseudoQueue<Integer> queue = new PseudoQueue<>();
+    queue.enqueue(3);
+    queue.enqueue(6);
+    queue.enqueue(9);
+    queue.dequeue();
+    assertEquals("PseudoQueue{Stack: [9]=>[6]=>Null}",queue.toString());
+
+  }
+
+  @Test public void dequeueMultiplePseudoQueueTest() {
+    PseudoQueue<Integer> queue = new PseudoQueue<>();
+    queue.enqueue(3);
+    queue.enqueue(6);
+    queue.enqueue(9);
+    queue.dequeue();
+    queue.dequeue();
+    queue.dequeue();
+    assertEquals("PseudoQueue{Stack: Null}",queue.toString());
+  }
+
+  @Test public void enqueueAfterDequeueMultiplePseudoQueueTest() {
+    PseudoQueue<Integer> queue = new PseudoQueue<>();
+    queue.enqueue(3);
+    queue.enqueue(6);
+    queue.enqueue(9);
+    queue.dequeue();
+    queue.enqueue(10);
+    assertEquals("PseudoQueue{Stack: [10]=>[9]=>[6]=>Null}",queue.toString());
+  }
+
+  @Test public void testInstantiateAnEmptyPseudoQueue() {
+    PseudoQueue<Integer> myQueue = new PseudoQueue<>();
+
+    String output = myQueue.toString();
+    String expectedOutput = "null";
+    assertEquals(expectedOutput,output);
+  }
 //-----------------------------------------------Animal test ----------------------------------------------------
 
   @Test public void emptyAnimalShelterTest() {

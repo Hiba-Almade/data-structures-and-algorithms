@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33cc7e59-7944-4e3f-a811-d351a32fa8f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack-and-queue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/stack/and/queue/animal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/stack/and/queue/pseudoQueue" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -71,8 +80,8 @@
       <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\stack-and-queue" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.dequeuePrefNullTest">
-    <configuration name="AppTest.dequeueDogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppTest.enqueueAfterDequeueMultiplePseudoQueueTest">
+    <configuration name="AppTest.dequeueMultiplePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +91,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="dequeueDogTest" />
+      <option name="METHOD_NAME" value="dequeueMultiplePseudoQueueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.dequeuePrefNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.dequeuePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +107,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="dequeuePrefNullTest" />
+      <option name="METHOD_NAME" value="dequeuePseudoQueueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.enqueueAnimalsShelterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.enqueueAfterDequeueMultiplePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +123,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="enqueueAnimalsShelterTest" />
+      <option name="METHOD_NAME" value="enqueueAfterDequeueMultiplePseudoQueueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testDequeuePrefCat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.enqueueMultiplePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -130,13 +139,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="testDequeuePrefCat" />
+      <option name="METHOD_NAME" value="enqueueMultiplePseudoQueueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testDequeuePrefDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.enqueuePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -146,7 +155,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="testDequeuePrefDog" />
+      <option name="METHOD_NAME" value="enqueuePseudoQueueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.dequeuePrefNullTest" />
-        <item itemvalue="JUnit.AppTest.dequeueDogTest" />
-        <item itemvalue="JUnit.AppTest.testDequeuePrefDog" />
-        <item itemvalue="JUnit.AppTest.testDequeuePrefCat" />
-        <item itemvalue="JUnit.AppTest.enqueueAnimalsShelterTest" />
+        <item itemvalue="JUnit.AppTest.enqueueAfterDequeueMultiplePseudoQueueTest" />
+        <item itemvalue="JUnit.AppTest.dequeueMultiplePseudoQueueTest" />
+        <item itemvalue="JUnit.AppTest.dequeuePseudoQueueTest" />
+        <item itemvalue="JUnit.AppTest.enqueueMultiplePseudoQueueTest" />
+        <item itemvalue="JUnit.AppTest.enqueuePseudoQueueTest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,8 +1,11 @@
-package stack.and.queue;
+package stack.and.queue.pseudoQueue;
+
+import stack.and.queue.Node;
+import stack.and.queue.Stack;
 
 public class PseudoQueue<T> {
 
-  private  Stack<T> firstStack = new Stack<>();
+  private Stack<T> firstStack = new Stack<>();
   private  Stack<T> secondStack = new Stack<>();
 
 
@@ -27,9 +30,23 @@ public class PseudoQueue<T> {
   }
 
   public T dequeue(){
+    if(firstStack.top==null){
+      return null;
+    }
     while (firstStack.top != null){
       secondStack.push(firstStack.pop());
   }
-  return secondStack.peek();
+  T temp= secondStack.pop();
+    while (secondStack.top != null){
+     firstStack.push(secondStack.pop());
+    }
+    return temp;
+  }
+
+  @Override
+  public String toString() {
+    return "PseudoQueue{" +
+       firstStack +
+      '}';
   }
 }

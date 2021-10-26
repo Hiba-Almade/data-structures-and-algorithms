@@ -3,6 +3,8 @@
  */
 package stack.and.queue;
 
+import stack.and.queue.pseudoQueue.PseudoQueue;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
@@ -21,7 +23,7 @@ public class App {
       System.out.println(stack.toString());
       System.out.println(stack.peek());
 
-      System.out.println("--------------------");
+      System.out.println("-------------------- Queue -------------------");
 
       Queue<Integer> queue = new Queue<>();
       System.out.println(queue.peek());
@@ -34,5 +36,14 @@ public class App {
       queue.dequeue();
       System.out.println(queue.toString());
       System.out.println(queue.peek());
+
+      System.out.println("-----------------Pseudo queue ---------------------");
+      PseudoQueue<Integer> pseudoQueue=new PseudoQueue<>();
+      pseudoQueue.enqueue(10);
+      pseudoQueue.enqueue(20);
+      System.out.println(pseudoQueue.toString());
+      pseudoQueue.dequeue();
+      System.out.println(pseudoQueue.toString());
     }
+
 }

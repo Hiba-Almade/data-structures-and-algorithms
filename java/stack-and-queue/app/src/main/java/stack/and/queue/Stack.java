@@ -1,7 +1,7 @@
 package stack.and.queue;
 
 public class Stack <T>{
-  Node top;
+  public Node top;
 
   public Stack(){
     this.top=null;
