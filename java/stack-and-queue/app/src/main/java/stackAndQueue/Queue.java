@@ -1,9 +1,9 @@
-package stack.and.queue;
+package stackAndQueue;
 
 public class Queue <T>{
   public Node front;
   public Node rear;
-
+  public int size;
   public Queue(){
     this.front=null;
   }
@@ -20,6 +20,7 @@ public class Queue <T>{
       rear.next=newNode;
     }
     rear=newNode;
+    size++;
   }
 
   public T dequeue(){
@@ -29,7 +30,9 @@ public class Queue <T>{
       Node temp = front;
       front=front.next;
       temp.next=null;
+      size--;
       return (T) temp.value;
+
     }
   }
 

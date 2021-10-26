@@ -1,4 +1,4 @@
-package stack.and.queue.animal;
+package stackAndQueue.animal;
 
 public class Cat extends Animal {
 

@@ -3,7 +3,7 @@ we have an AnimalShelter class which holds only dogs and cats using a first-in, 
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![photo](./stack-queue-animal-shelter.jpg)
+![photo](stack-queue-animal-shelter.jpg)
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 we create new method:

@@ -1,7 +1,8 @@
-package stack.and.queue;
+package stackAndQueue;
 
 public class Stack <T>{
   public Node top;
+  public int size;
 
   public Stack(){
     this.top=null;
@@ -15,6 +16,7 @@ public class Stack <T>{
     Node newNode =  new Node(value);
     newNode.next=top;
     top=newNode;
+    size++;
   }
 
   public T pop(){
@@ -24,6 +26,7 @@ public class Stack <T>{
       Node temp = top;
       top = top.next;
       temp.next=null;
+      size--;
       return (T) temp.value;
     }
   }

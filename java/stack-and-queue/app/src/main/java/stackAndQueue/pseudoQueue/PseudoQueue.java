@@ -1,7 +1,6 @@
-package stack.and.queue.pseudoQueue;
+package stackAndQueue.pseudoQueue;
 
-import stack.and.queue.Node;
-import stack.and.queue.Stack;
+import stackAndQueue.Stack;
 
 public class PseudoQueue<T> {
 
