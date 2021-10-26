@@ -4,16 +4,19 @@
 package stack.and.queue;
 
 import org.junit.jupiter.api.Test;
-import stack.and.queue.animal.Animal;
-import stack.and.queue.animal.AnimalShelter;
-import stack.and.queue.animal.Cat;
-import stack.and.queue.animal.Dog;
-import stack.and.queue.pseudoQueue.PseudoQueue;
+import stackAndQueue.Queue;
+import stackAndQueue.Stack;
+import stackAndQueue.animal.Animal;
+import stackAndQueue.animal.AnimalShelter;
+import stackAndQueue.animal.Cat;
+import stackAndQueue.animal.Dog;
+import stackAndQueue.pseudoQueue.PseudoQueue;
+import stackAndQueue.stackQueueBrackets.Brackets;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-  Stack <Integer> stack =new Stack<>();
+  Stack<Integer> stack =new Stack<>();
   Queue<Integer> queue = new Queue<>();
 
   //------------------Stack------------------------
@@ -215,6 +218,17 @@ class AppTest {
 
     assertEquals("AnimalShelter{animalQueue=Queue: [Animal{name='dog'}]=>[Animal{name='cat1'}]=>[Animal{name='cat2'}]=>Null}",animalShelter.toString());
     }
+  //----------------------------------- brackets test -----------------------------------
 
+  @Test public void bracketsFalseTest(){
+    Brackets<String> brackets=new Brackets<>();
+    assertFalse(brackets.validateBrackets("{((hel(lo))})"));
+   assertFalse(brackets.validateBrackets("["));
+  }
+
+  @Test public void bracketsTrueTest(){
+    Brackets<String> brackets=new Brackets<>();
+    assertTrue(brackets.validateBrackets("({})"));
+  }
 
 }

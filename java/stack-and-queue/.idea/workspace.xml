@@ -20,7 +20,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stack-and-queue" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -58,11 +63,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../README.md" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\stack-and-queue\app\src\main\java\stackAndQueue\stackQueueBrackets" />
       <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\stack-and-queue\app\src\main\java\stack\and\queue\pseudoQueue" />
       <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\stack-and-queue\app\src\main\java\stack\and\queue\animal" />
     </key>
@@ -70,8 +76,21 @@
       <recent name="C:\Users\Hiba Almade\Desktop\data-structures-and-algorithms\java\stack-and-queue" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.enqueueAfterDequeueMultiplePseudoQueueTest">
-    <configuration name="AppTest.dequeueMultiplePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stackAndQueue.App" />
+      <module name="stack-and-queue.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stackAndQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.bracketsFalseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -81,13 +100,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="dequeueMultiplePseudoQueueTest" />
+      <option name="METHOD_NAME" value="bracketsFalseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.dequeuePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.bracketsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +116,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="dequeuePseudoQueueTest" />
+      <option name="METHOD_NAME" value="bracketsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.enqueueAfterDequeueMultiplePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.bracketsTreuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +132,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="enqueueAfterDequeueMultiplePseudoQueueTest" />
+      <option name="METHOD_NAME" value="bracketsTreuTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.enqueueMultiplePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.bracketsTrueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack-and-queue.app.test" />
       <extension name="coverage">
         <pattern>
@@ -129,23 +148,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="stack.and.queue" />
       <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="enqueueMultiplePseudoQueueTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.enqueuePseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stack-and-queue.app.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.and.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stack.and.queue" />
-      <option name="MAIN_CLASS_NAME" value="stack.and.queue.AppTest" />
-      <option name="METHOD_NAME" value="enqueuePseudoQueueTest" />
+      <option name="METHOD_NAME" value="bracketsTrueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.enqueueAfterDequeueMultiplePseudoQueueTest" />
-        <item itemvalue="JUnit.AppTest.dequeueMultiplePseudoQueueTest" />
-        <item itemvalue="JUnit.AppTest.dequeuePseudoQueueTest" />
-        <item itemvalue="JUnit.AppTest.enqueueMultiplePseudoQueueTest" />
-        <item itemvalue="JUnit.AppTest.enqueuePseudoQueueTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest.bracketsTrueTest" />
+        <item itemvalue="JUnit.AppTest.bracketsTreuTest" />
+        <item itemvalue="JUnit.AppTest.bracketsFalseTest" />
+        <item itemvalue="JUnit.AppTest.bracketsTest" />
       </list>
     </recent_temporary>
   </component>

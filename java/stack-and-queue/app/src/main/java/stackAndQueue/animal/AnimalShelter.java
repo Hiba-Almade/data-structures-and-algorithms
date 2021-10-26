@@ -1,10 +1,8 @@
-package stack.and.queue.animal;
+package stackAndQueue.animal;
 
 
-import stack.and.queue.Node;
-import stack.and.queue.Queue;
-
-import java.util.Locale;
+import stackAndQueue.Node;
+import stackAndQueue.Queue;
 
 public class AnimalShelter {
   Queue<Animal> animalQueue=new Queue<Animal>();
