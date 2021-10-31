@@ -60,4 +60,30 @@ public class BinaryTree <T>{
     return arrayList;
   }
 
+  public int maxValue(Node root){
+    if( root != null){
+      int max=(int) root.value;
+      int left= max;
+      int right= max;
+      if(root.left == null && root.right == null){
+        return (int) root.value;
+      }
+      if(root.left != null){
+        left= maxValue(root.left);
+      }
+      if(root.right != null){
+        right= maxValue(root.right);
+      }
+      if( left > max){
+        max= left;
+      }
+      if(right > max){
+        max= right;
+      }
+      return max;
+    }
+    return -1;
+  }
+
+
 }

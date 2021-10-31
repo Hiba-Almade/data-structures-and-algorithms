@@ -60,5 +60,14 @@ public class AppTest {
 
   }
 
+  @Test public void maxValueTreeTest() {
+    BinarySearchTree<Integer> tree=new BinarySearchTree<>();
+    tree.add(10);
+    tree.add(30);
+    tree.add(5);
+    assertEquals(30,tree.maxValue(tree.root));
+
+  }
+
 
 }

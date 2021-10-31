@@ -99,3 +99,7 @@ contain tow method:
   * return false if there is no left child
   * else: current=current.lest and loop again
 * else: check the right child in the same way
+
+
+---------
+
