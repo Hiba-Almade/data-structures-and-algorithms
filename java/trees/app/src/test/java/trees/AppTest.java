@@ -69,5 +69,14 @@ public class AppTest {
 
   }
 
+  @Test public void breadthFirstTreeTest() {
+    BinarySearchTree<Integer> tree=new BinarySearchTree<>();
+    tree.add(10);
+    tree.add(30);
+    tree.add(5);
+    assertEquals("[10, 5, 30]",tree.treeBreadthFirst().toString());
+
+  }
+
 
 }
