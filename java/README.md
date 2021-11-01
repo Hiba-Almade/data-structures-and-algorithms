@@ -14,7 +14,7 @@
 | [Single Linked List zip Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/linkedList/challenge8)  |
 | [Stack and Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue)  |
 | [Pseudo Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/main/java/stackAndQueue/pseudoQueue)  |
-| [Animal shelter Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/main/java/stackAndQueue/and/queue/animal)  |
+| [Animal shelter Queue Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/main/java/stackAndQueue/animal)  |
 | [ Brackets Challenge](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/stack-and-queue/app/src/main/java/stackAndQueue/stackQueueBrackets)  |
 | [The Binary Search Trees ](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/trees)      |
 | [Maximum value Trees ](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/trees/challenge16)      |
