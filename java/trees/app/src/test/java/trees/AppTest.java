@@ -3,7 +3,13 @@
  */
 package trees;
 
+import K_trees.K_aryTree;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class AppTest {
@@ -75,6 +81,17 @@ public class AppTest {
     tree.add(30);
     tree.add(5);
     assertEquals("[10, 5, 30]",tree.treeBreadthFirst().toString());
+
+  }
+
+  @Test public void fizzBussKTreeTest(){
+    K_aryTree<Integer> kAryTree=new K_aryTree<>(3);
+    kAryTree.add(10);
+    kAryTree.add(0);
+    kAryTree.add(3);
+
+    K_aryTree<String>kAryTree2=kAryTree.fizzBuzzTree(kAryTree);
+    assertEquals("Buzz",kAryTree2.root.value);
 
   }
 
