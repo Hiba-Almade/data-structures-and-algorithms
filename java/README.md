@@ -23,6 +23,7 @@
 |  [Insertion Sort](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/insertionSort)      |
 |  [Merge Sort](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/mergeSort)      |
 |  [Hash Table](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/hashTable)      |
+|  [Find the first repeated word](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/hashTable/app/src/main/java/repeatedWord)      |
 
 
 
