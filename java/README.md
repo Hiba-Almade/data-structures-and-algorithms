@@ -21,7 +21,11 @@
 | [Breadth-first Traversal Trees ](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/trees/challenge17)      |
 | [Fizz-Buzz Trees ](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/trees/app/src/main/java/K_trees)      |
 |  [Insertion Sort](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/insertionSort)      |
+|  [Merge Sort](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/mergeSort)      |
 |  [Hash Table](https://github.com/Hiba-Almade/data-structures-and-algorithms/tree/main/java/hashTable)      |
+
+
+
 
 
 
