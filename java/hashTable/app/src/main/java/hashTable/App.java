@@ -3,6 +3,8 @@
  */
 package hashTable;
 
+import repeatedWord.Repeated;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
@@ -13,9 +15,14 @@ public class App {
         hashTable.add(1,5);
         hashTable.add(3,6);
         hashTable.add(51,10);
-      System.out.println( hashTable.get(1));
-      System.out.println( hashTable.contain(1));
-      System.out.println( hashTable.contain(6));
+//      System.out.println( hashTable.get(1));
+//      System.out.println( hashTable.contain(1));
+//      System.out.println( hashTable.contain(6));
+
+
+        String text ="It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York...";
+      Repeated repeated=new Repeated();
+      System.out.println(repeated.repeatedWord(text));
 
 
     }
