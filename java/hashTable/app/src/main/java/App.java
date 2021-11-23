@@ -31,7 +31,7 @@ public class App {
 //      System.out.println(repeated.repeatedWord(text));
 
       BinarySearchTree<Integer>binaryTree=new BinarySearchTree<>();
-  
+
       BinarySearchTree<Integer>binarySearchTree=new BinarySearchTree<>();
 
       TreeIntersection treeIntersection=new TreeIntersection();

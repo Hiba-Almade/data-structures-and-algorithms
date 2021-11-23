@@ -3,6 +3,7 @@
  */
 package hashTable;
 
+import leftJoin.LeftJoin;
 import org.junit.jupiter.api.Test;
 import repeatedWord.Repeated;
 
@@ -10,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
   HashTable<Integer,Integer> hashTable = new HashTable<>();
+  LeftJoin<String ,String> leftJoin=new LeftJoin<>();
   Repeated repeated=new Repeated();
 //    @Test void appHasAGreeting() {
 //        App classUnderTest = new App();
@@ -54,6 +56,18 @@ class AppTest {
     String text3 = "";
     assertEquals("no repeated",repeated.repeatedWord(text3));
 
+  }
+
+  @Test void setLeftJoinTest(){
+    HashTable<String,String> hash1 =new HashTable<>();
+    HashTable<String,String> hash2 =new HashTable<>();
+
+    hash1.add("a","aa");
+    hash1.add("d","dd");
+
+    hash2.add("a","aaa");
+    hash2.add("c","cc");
+    assertEquals("[[d, dd, null], [a, aa, aaa]]" , leftJoin.leftJoin(hash1,hash2).toString());
   }
 
 }
