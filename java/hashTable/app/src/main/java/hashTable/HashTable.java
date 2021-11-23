@@ -2,6 +2,7 @@ package hashTable;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class HashTable <K , V> {
 
@@ -77,5 +78,15 @@ public class HashTable <K , V> {
 
     return size;
 
+  }
+
+  public List<K> keys(){
+    List<K> keys = new ArrayList<>();
+    for (HashNode<K, V> bucket: bucketsArray){
+      if(bucket != null) {
+        keys.add(bucket.getKey());
+      }
+    }
+    return keys;
   }
 }
