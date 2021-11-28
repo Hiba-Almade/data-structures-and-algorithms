@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.LinkedList;
 
 import static org.junit.Assert.*;
 
@@ -52,6 +53,27 @@ public class AppTest {
 
     assertTrue(graph.getNodes().contains(n1));
     assertTrue(graph.getNodes().contains(n2));
+
+  }
+
+  @Test
+  public void breadthFirstGraphTest() {
+    Node n1 = graph.addNode(1);
+    Node n2 = graph.addNode(2);
+    Node n3 = graph.addNode(3);
+
+
+    graph.addEdge(n1,n2,5);
+    graph.addEdge(n1,n3,2);
+
+    LinkedList<Node> result = new LinkedList<>();
+    result.add(n1);
+    result.add(n3);
+    result.add(n2);
+
+    assertEquals( result, graph.getNeighbors(n1));
+
+
 
   }
 

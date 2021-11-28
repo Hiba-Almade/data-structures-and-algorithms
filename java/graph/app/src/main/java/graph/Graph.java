@@ -1,7 +1,6 @@
 package graph;
 
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class Graph <T>{
 
@@ -46,4 +45,27 @@ public class Graph <T>{
   public int getSize(){
     return this.vertices.size();
   }
+
+  public static LinkedList<Node> breadthFirst(Node node){
+    HashSet<Node> visited = new HashSet<>();
+    Queue queue  = new LinkedList();
+
+    queue.add(node);
+    visited.add(node);
+    LinkedList result = new LinkedList();
+    result.add(node);
+    while(!queue.isEmpty()){
+      Node current = (Node) queue.poll();
+      result.add(current);
+      for(Neighbor neighbor: (List<Neighbor>) current.getNeighbors()){
+        if(!visited.contains(neighbor.getNode())){
+          queue.add(neighbor.getNode());
+          visited.add(neighbor.getNode());
+        }
+      }
+    }
+    return result;
+  }
+
 }
+
