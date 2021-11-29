@@ -11,7 +11,7 @@ import java.util.LinkedList;
 
 import static org.junit.Assert.*;
 
-public class AppTest {
+public class AppTest<T> {
   Graph graph = new Graph();
     @Test public void appHasAGreeting() {
         App classUnderTest = new App();
@@ -71,10 +71,22 @@ public class AppTest {
     result.add(n3);
     result.add(n2);
 
-    assertEquals( result, graph.getNeighbors(n1));
+    assertEquals( result, graph.getNeighbors(n2).size());
 
 
 
+  }
+
+  @Test
+  public void tripGraphTest() {
+    Node n1 = graph.addNode("1");
+    Node n2 = graph.addNode("2");
+    Node n3 = graph.addNode("3");
+
+    graph.addEdge(n1,n2,5);
+    graph.addEdge(n2,n3,2);
+    assertEquals( "True, $7", graph.businessTrip(new String[]{"1", "2","3"}));
+    assertEquals( "False, $0", graph.businessTrip(new String[]{"1","3"}));
   }
 
 }
