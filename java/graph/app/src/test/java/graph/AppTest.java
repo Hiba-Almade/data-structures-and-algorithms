@@ -8,6 +8,7 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -58,22 +59,24 @@ public class AppTest<T> {
 
   @Test
   public void breadthFirstGraphTest() {
-    Node n1 = graph.addNode(1);
-    Node n2 = graph.addNode(2);
-    Node n3 = graph.addNode(3);
 
-
-    graph.addEdge(n1,n2,5);
-    graph.addEdge(n1,n3,2);
-
-    LinkedList<Node> result = new LinkedList<>();
-    result.add(n1);
-    result.add(n3);
-    result.add(n2);
-
-    assertEquals( result, graph.getNeighbors(n2).size());
-
-
+      Node n= graph.addNode("Pandora");
+      Node n1= graph.addNode("Arendelle");
+      Node n2= graph.addNode("Metroville");
+      Node n3= graph.addNode("Monstroplolis");
+      Node n4= graph.addNode("Narnia");
+      Node n5= graph.addNode("Naboo");
+      graph.addEdge(n,n1,0);
+      graph.addEdge(n1,n2,0);
+      graph.addEdge(n1,n3,0);
+      graph.addEdge(n3,n4,0);
+      graph.addEdge(n3,n5,0);
+      graph.addEdge(n2,n3,0);
+      graph.addEdge(n3,n5,0);
+      graph.addEdge(n4,n5,0);
+      List<String> bft = graph.breadthFirst(n);
+      String expected = "[Pandora, Arendelle, Metroville, Monstroplolis, Narnia, Naboo]";
+      assertEquals(expected, bft.toString());
 
   }
 
