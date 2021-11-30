@@ -25,6 +25,7 @@ find the common values in two binary trees.
 
 * Space: O(n)
 
+
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
 [code source](TreeIntersection.java)
