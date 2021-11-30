@@ -24,4 +24,4 @@ If no values exist in the right hashmap, then some flavor of NULL should be appe
 - Space: O(n)
 ## Solution
 <!-- Embedded whiteboard image -->
-[code source](LeftJoin.java)
+[Source code](LeftJoin.java)

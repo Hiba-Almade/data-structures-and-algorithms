@@ -15,3 +15,4 @@ Find the first repeated word in a given book (string).
 <!-- Show how to run your code, and examples of it in action -->
 
 repeatedWord(text); text must be a string value, will return a string which is the first repeated word in the entered string, if there is no repeated words, will return "no repeated".
+[Source code](Repeated.java)
