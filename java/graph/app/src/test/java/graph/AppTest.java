@@ -92,4 +92,29 @@ public class AppTest<T> {
     assertEquals( "False, $0", graph.businessTrip(new String[]{"1","3"}));
   }
 
+  @Test
+  public void DTFTest(){
+
+    Node n= graph.addNode("A");
+    Node n1=graph.addNode("B");
+    Node n2=graph.addNode("C");
+    Node n3= graph.addNode("D");
+    Node n4=graph.addNode("E");
+    Node n5=graph.addNode("F");
+    Node n6= graph.addNode("G");
+    Node n7=graph.addNode("H");
+    graph.addEdge(n,n1,0);
+    graph.addEdge(n,n3,0);
+    graph.addEdge(n1,n2,0);
+    graph.addEdge(n1,n3,0);
+    graph.addEdge(n2,n6,0);
+    graph.addEdge(n3,n4,0);
+    graph.addEdge(n3,n7,0);
+    graph.addEdge(n3,n5,0);
+    graph.addEdge(n5,n7,0);
+    List<String> dft = graph.depthFirst(n);
+    String expected = "[A, B, D, C, E, H, F, G]";
+    assertEquals(expected, dft.toString());
+  }
+
 }
